@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A05CA771C17CD100067BD21 /* SOSearchAPIService.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A05CA761C17CD100067BD21 /* SOSearchAPIService.m */; };
+		1A05CA7A1C17D05E0067BD21 /* JSONAPIRequestService.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A05CA791C17D05E0067BD21 /* JSONAPIRequestService.m */; };
 		1A101C961C16516400CE741D /* MyQuestionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A101C951C16516400CE741D /* MyQuestionsViewController.m */; };
 		1A101C991C1658E400CE741D /* MenuTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A101C981C1658E400CE741D /* MenuTableViewController.m */; };
 		1A101C9C1C1659B800CE741D /* OAuthWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A101C9B1C1659B800CE741D /* OAuthWebViewController.m */; };
@@ -20,7 +22,18 @@
 		1A3236C91C162A690039550B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A3236C71C162A690039550B /* LaunchScreen.storyboard */; };
 		1A3236D41C162A690039550B /* StackOverflowClientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A3236D31C162A690039550B /* StackOverflowClientTests.m */; };
 		1A3236DF1C162A690039550B /* StackOverflowClientUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A3236DE1C162A690039550B /* StackOverflowClientUITests.m */; };
+		1A6C5E701C18DCA50053C184 /* burgerxib.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 1A6C5E6F1C18DCA50053C184 /* burgerxib.jpeg */; };
+		1A6C5E751C18F1B70053C184 /* SOSearchSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A6C5E741C18F1B70053C184 /* SOSearchSettings.m */; };
+		1A6C5E781C18F39B0053C184 /* CFSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A6C5E771C18F39B0053C184 /* CFSettings.m */; };
 		1AD3EAE61C17934A00B5186E /* Error.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD3EAE51C17934A00B5186E /* Error.m */; };
+		1AD858871C17ECB7002F50FD /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD858861C17ECB7002F50FD /* User.m */; };
+		1AD8588A1C17ED80002F50FD /* Question.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD858891C17ED80002F50FD /* Question.m */; };
+		1AD8588D1C17EFCB002F50FD /* ImageFetcherService.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD8588C1C17EFCB002F50FD /* ImageFetcherService.m */; };
+		1AD858901C17F261002F50FD /* SearchResultTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD8588F1C17F261002F50FD /* SearchResultTableViewCell.m */; };
+		1AD858941C17F474002F50FD /* SearchResultTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD858921C17F474002F50FD /* SearchResultTableViewCell.m */; };
+		1AD858951C17F474002F50FD /* SearchResultTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1AD858931C17F474002F50FD /* SearchResultTableViewCell.xib */; };
+		1AD858981C17FB8A002F50FD /* SomeQuestionsAPIService.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD858971C17FB8A002F50FD /* SomeQuestionsAPIService.m */; };
+		1AD8589B1C18004B002F50FD /* SOSearchJSONParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD8589A1C18004B002F50FD /* SOSearchJSONParser.m */; };
 		620CABDD6283FEC0911C64D5 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D3FA4E17976CE66BA504E5AD /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -43,22 +56,27 @@
 
 /* Begin PBXFileReference section */
 		0FDD0FE13823AC59624C0DC8 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
-		1A101C941C16516400CE741D /* MyQuestionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyQuestionsViewController.h; sourceTree = "<group>"; };
-		1A101C951C16516400CE741D /* MyQuestionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyQuestionsViewController.m; sourceTree = "<group>"; };
-		1A101C971C1658E400CE741D /* MenuTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuTableViewController.h; sourceTree = "<group>"; };
-		1A101C981C1658E400CE741D /* MenuTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuTableViewController.m; sourceTree = "<group>"; };
+		1A05CA751C17CD100067BD21 /* SOSearchAPIService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SOSearchAPIService.h; sourceTree = "<group>"; };
+		1A05CA761C17CD100067BD21 /* SOSearchAPIService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SOSearchAPIService.m; sourceTree = "<group>"; };
+		1A05CA781C17D05E0067BD21 /* JSONAPIRequestService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONAPIRequestService.h; sourceTree = "<group>"; };
+		1A05CA791C17D05E0067BD21 /* JSONAPIRequestService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONAPIRequestService.m; sourceTree = "<group>"; };
+		1A05CA7B1C17D38C0067BD21 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		1A101C941C16516400CE741D /* MyQuestionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyQuestionsViewController.h; path = StackOverflowClient/MyQuestionsViewController.h; sourceTree = "<group>"; };
+		1A101C951C16516400CE741D /* MyQuestionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyQuestionsViewController.m; path = StackOverflowClient/MyQuestionsViewController.m; sourceTree = "<group>"; };
+		1A101C971C1658E400CE741D /* MenuTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MenuTableViewController.h; path = StackOverflowClient/MenuTableViewController.h; sourceTree = "<group>"; };
+		1A101C981C1658E400CE741D /* MenuTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MenuTableViewController.m; path = StackOverflowClient/MenuTableViewController.m; sourceTree = "<group>"; };
 		1A101C9A1C1659B800CE741D /* OAuthWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAuthWebViewController.h; sourceTree = "<group>"; };
 		1A101C9B1C1659B800CE741D /* OAuthWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAuthWebViewController.m; sourceTree = "<group>"; };
 		1A101C9D1C1659E600CE741D /* MainContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainContentViewController.h; sourceTree = "<group>"; };
 		1A101C9E1C1659E600CE741D /* MainContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainContentViewController.m; sourceTree = "<group>"; };
-		1A101CA21C1668EB00CE741D /* MenuContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuContainerViewController.h; sourceTree = "<group>"; };
+		1A101CA21C1668EB00CE741D /* MenuContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MenuContainerViewController.h; path = StackOverflowClient/MenuContainerViewController.h; sourceTree = "<group>"; };
 		1A101CA31C1668EB00CE741D /* MenuContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuContainerViewController.m; sourceTree = "<group>"; };
 		1A3236B61C162A690039550B /* StackOverflowClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StackOverflowClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A3236BA1C162A690039550B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1A3236BC1C162A690039550B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1A3236BD1C162A690039550B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1A3236BF1C162A690039550B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		1A3236C01C162A690039550B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1A3236BF1C162A690039550B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = StackOverflowClient/ViewController.h; sourceTree = "<group>"; };
+		1A3236C01C162A690039550B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = StackOverflowClient/ViewController.m; sourceTree = "<group>"; };
 		1A3236C31C162A690039550B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1A3236C51C162A690039550B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1A3236C81C162A690039550B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -69,8 +87,27 @@
 		1A3236DA1C162A690039550B /* StackOverflowClientUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StackOverflowClientUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A3236DE1C162A690039550B /* StackOverflowClientUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StackOverflowClientUITests.m; sourceTree = "<group>"; };
 		1A3236E01C162A690039550B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A6C5E6F1C18DCA50053C184 /* burgerxib.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = burgerxib.jpeg; sourceTree = "<group>"; };
+		1A6C5E731C18F1B70053C184 /* SOSearchSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SOSearchSettings.h; sourceTree = "<group>"; };
+		1A6C5E741C18F1B70053C184 /* SOSearchSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SOSearchSettings.m; sourceTree = "<group>"; };
+		1A6C5E761C18F39B0053C184 /* CFSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFSettings.h; sourceTree = "<group>"; };
+		1A6C5E771C18F39B0053C184 /* CFSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFSettings.m; sourceTree = "<group>"; };
 		1AD3EAE41C17930D00B5186E /* Error.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Error.h; sourceTree = "<group>"; };
 		1AD3EAE51C17934A00B5186E /* Error.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Error.m; sourceTree = "<group>"; };
+		1AD858851C17ECB7002F50FD /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		1AD858861C17ECB7002F50FD /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		1AD858881C17ED80002F50FD /* Question.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Question.h; sourceTree = "<group>"; };
+		1AD858891C17ED80002F50FD /* Question.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Question.m; sourceTree = "<group>"; };
+		1AD8588B1C17EFCB002F50FD /* ImageFetcherService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageFetcherService.h; sourceTree = "<group>"; };
+		1AD8588C1C17EFCB002F50FD /* ImageFetcherService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageFetcherService.m; sourceTree = "<group>"; };
+		1AD8588F1C17F261002F50FD /* SearchResultTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchResultTableViewCell.m; sourceTree = "<group>"; };
+		1AD858911C17F474002F50FD /* SearchResultTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchResultTableViewCell.h; sourceTree = "<group>"; };
+		1AD858921C17F474002F50FD /* SearchResultTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchResultTableViewCell.m; sourceTree = "<group>"; };
+		1AD858931C17F474002F50FD /* SearchResultTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchResultTableViewCell.xib; sourceTree = "<group>"; };
+		1AD858961C17FB8A002F50FD /* SomeQuestionsAPIService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SomeQuestionsAPIService.h; sourceTree = "<group>"; };
+		1AD858971C17FB8A002F50FD /* SomeQuestionsAPIService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SomeQuestionsAPIService.m; sourceTree = "<group>"; };
+		1AD858991C18004B002F50FD /* SOSearchJSONParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SOSearchJSONParser.h; sourceTree = "<group>"; };
+		1AD8589A1C18004B002F50FD /* SOSearchJSONParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SOSearchJSONParser.m; sourceTree = "<group>"; };
 		37636EE201C5ADDB928E3D1E /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		D3FA4E17976CE66BA504E5AD /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -104,10 +141,19 @@
 		1A3236AD1C162A690039550B = {
 			isa = PBXGroup;
 			children = (
-				1A101C9A1C1659B800CE741D /* OAuthWebViewController.h */,
-				1A101C9B1C1659B800CE741D /* OAuthWebViewController.m */,
-				1A101C9D1C1659E600CE741D /* MainContentViewController.h */,
-				1A101C9E1C1659E600CE741D /* MainContentViewController.m */,
+				1A6C5E761C18F39B0053C184 /* CFSettings.h */,
+				1A6C5E771C18F39B0053C184 /* CFSettings.m */,
+				1A6C5E731C18F1B70053C184 /* SOSearchSettings.h */,
+				1A6C5E741C18F1B70053C184 /* SOSearchSettings.m */,
+				1A6C5E721C18EC2A0053C184 /* View */,
+				1A6C5E711C18EC080053C184 /* Model */,
+				1AD858961C17FB8A002F50FD /* SomeQuestionsAPIService.h */,
+				1AD858971C17FB8A002F50FD /* SomeQuestionsAPIService.m */,
+				1AD858991C18004B002F50FD /* SOSearchJSONParser.h */,
+				1AD8589A1C18004B002F50FD /* SOSearchJSONParser.m */,
+				1AD8588B1C17EFCB002F50FD /* ImageFetcherService.h */,
+				1AD8588C1C17EFCB002F50FD /* ImageFetcherService.m */,
+				1AD8588F1C17F261002F50FD /* SearchResultTableViewCell.m */,
 				1A3236B81C162A690039550B /* StackOverflowClient */,
 				1A3236D21C162A690039550B /* StackOverflowClientTests */,
 				1A3236DD1C162A690039550B /* StackOverflowClientUITests */,
@@ -132,17 +178,15 @@
 			children = (
 				1A3236BC1C162A690039550B /* AppDelegate.h */,
 				1A3236BD1C162A690039550B /* AppDelegate.m */,
-				1A3236BF1C162A690039550B /* ViewController.h */,
-				1A3236C01C162A690039550B /* ViewController.m */,
 				1A3236C21C162A690039550B /* Main.storyboard */,
-				1A101C971C1658E400CE741D /* MenuTableViewController.h */,
-				1A101CA21C1668EB00CE741D /* MenuContainerViewController.h */,
 				1A101CA31C1668EB00CE741D /* MenuContainerViewController.m */,
-				1A101C981C1658E400CE741D /* MenuTableViewController.m */,
+				1A05CA751C17CD100067BD21 /* SOSearchAPIService.h */,
+				1A05CA761C17CD100067BD21 /* SOSearchAPIService.m */,
+				1A05CA781C17D05E0067BD21 /* JSONAPIRequestService.h */,
+				1A05CA791C17D05E0067BD21 /* JSONAPIRequestService.m */,
+				1A05CA7B1C17D38C0067BD21 /* Constants.h */,
 				1AD3EAE41C17930D00B5186E /* Error.h */,
 				1AD3EAE51C17934A00B5186E /* Error.m */,
-				1A101C941C16516400CE741D /* MyQuestionsViewController.h */,
-				1A101C951C16516400CE741D /* MyQuestionsViewController.m */,
 				1A3236C51C162A690039550B /* Assets.xcassets */,
 				1A3236C71C162A690039550B /* LaunchScreen.storyboard */,
 				1A3236CA1C162A690039550B /* Info.plist */,
@@ -154,6 +198,7 @@
 		1A3236B91C162A690039550B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				1A6C5E6F1C18DCA50053C184 /* burgerxib.jpeg */,
 				1A3236BA1C162A690039550B /* main.m */,
 			);
 			name = "Supporting Files";
@@ -175,6 +220,38 @@
 				1A3236E01C162A690039550B /* Info.plist */,
 			);
 			path = StackOverflowClientUITests;
+			sourceTree = "<group>";
+		};
+		1A6C5E711C18EC080053C184 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1AD858851C17ECB7002F50FD /* User.h */,
+				1AD858861C17ECB7002F50FD /* User.m */,
+				1AD858891C17ED80002F50FD /* Question.m */,
+				1AD858881C17ED80002F50FD /* Question.h */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		1A6C5E721C18EC2A0053C184 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1AD858911C17F474002F50FD /* SearchResultTableViewCell.h */,
+				1AD858921C17F474002F50FD /* SearchResultTableViewCell.m */,
+				1A101C9A1C1659B800CE741D /* OAuthWebViewController.h */,
+				1A101C9B1C1659B800CE741D /* OAuthWebViewController.m */,
+				1A101C9D1C1659E600CE741D /* MainContentViewController.h */,
+				1A101C9E1C1659E600CE741D /* MainContentViewController.m */,
+				1A3236BF1C162A690039550B /* ViewController.h */,
+				1A3236C01C162A690039550B /* ViewController.m */,
+				1A101C971C1658E400CE741D /* MenuTableViewController.h */,
+				1A101CA21C1668EB00CE741D /* MenuContainerViewController.h */,
+				1A101C941C16516400CE741D /* MyQuestionsViewController.h */,
+				1A101C951C16516400CE741D /* MyQuestionsViewController.m */,
+				1A101C981C1658E400CE741D /* MenuTableViewController.m */,
+				1AD858931C17F474002F50FD /* SearchResultTableViewCell.xib */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 		3B89A1F9AEF52660B1DA085E /* Frameworks */ = {
@@ -300,7 +377,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A6C5E701C18DCA50053C184 /* burgerxib.jpeg in Resources */,
 				1A3236C91C162A690039550B /* LaunchScreen.storyboard in Resources */,
+				1AD858951C17F474002F50FD /* SearchResultTableViewCell.xib in Resources */,
 				1A3236C61C162A690039550B /* Assets.xcassets in Resources */,
 				1A3236C41C162A690039550B /* Main.storyboard in Resources */,
 			);
@@ -376,14 +455,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				1AD3EAE61C17934A00B5186E /* Error.m in Sources */,
+				1AD8588A1C17ED80002F50FD /* Question.m in Sources */,
 				1A101C9F1C1659E600CE741D /* MainContentViewController.m in Sources */,
 				1A3236C11C162A690039550B /* ViewController.m in Sources */,
 				1A101C9C1C1659B800CE741D /* OAuthWebViewController.m in Sources */,
 				1A3236BE1C162A690039550B /* AppDelegate.m in Sources */,
 				1A101C961C16516400CE741D /* MyQuestionsViewController.m in Sources */,
+				1A05CA7A1C17D05E0067BD21 /* JSONAPIRequestService.m in Sources */,
 				1A3236BB1C162A690039550B /* main.m in Sources */,
+				1AD858901C17F261002F50FD /* SearchResultTableViewCell.m in Sources */,
+				1AD8589B1C18004B002F50FD /* SOSearchJSONParser.m in Sources */,
+				1AD858871C17ECB7002F50FD /* User.m in Sources */,
 				1A101C991C1658E400CE741D /* MenuTableViewController.m in Sources */,
+				1A05CA771C17CD100067BD21 /* SOSearchAPIService.m in Sources */,
+				1AD858941C17F474002F50FD /* SearchResultTableViewCell.m in Sources */,
+				1AD858981C17FB8A002F50FD /* SomeQuestionsAPIService.m in Sources */,
 				1A101CA41C1668EB00CE741D /* MenuContainerViewController.m in Sources */,
+				1A6C5E781C18F39B0053C184 /* CFSettings.m in Sources */,
+				1AD8588D1C17EFCB002F50FD /* ImageFetcherService.m in Sources */,
+				1A6C5E751C18F1B70053C184 /* SOSearchSettings.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

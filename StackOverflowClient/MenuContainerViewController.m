@@ -10,6 +10,10 @@
 #import "MenuTableViewController.h"
 #import "MainContentViewController.h"
 #import "MyQuestionsViewController.h"
+#import "SOSearchAPIService.h"
+#import "SOSearchJSONParser.h"
+#import "Question.h"
+
 
 CGFloat const kburgerOpenScreenDivider = 3.0;
 CGFloat const kburgerOpenScreenMultiplier = 2.0;
@@ -40,6 +44,8 @@ NSTimeInterval const ktimeToSlideMenuOpen = 0.2;
     
     [self setupPanGesture];
     [self setupBurgerButton];
+    
+   
 }
 
 //MARK: View Controller Setup
